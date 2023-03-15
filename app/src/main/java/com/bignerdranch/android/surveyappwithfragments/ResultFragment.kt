@@ -46,9 +46,7 @@ class ResultFragment : Fragment() {
             numberOfNos.text = surveyViewModel.noCount.toString()
         }
 
-        continueButton.setOnClickListener {
-
-        }
+        continueButton.setOnClickListener {}
 
         return view
     }
